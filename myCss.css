@@ -1,0 +1,67 @@
+.div-wrapper{
+    background-color: rgb(3, 142, 5);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.child1{
+   
+    height: 50px;
+    display: flex;
+    
+    align-items: center;
+
+}
+.child1 img{
+    width: 10%;
+}
+.child1 span{
+    color: blue;
+}
+.child2{
+    margin: 20px;
+    
+
+}
+
+.child2 a{
+    text-decoration: none;
+    color: orange;
+    padding-left: 20px;
+}
+.banner-wrapper{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: radial-gradient( rgb(68, 255, 0), rgb(1, 57, 3));
+    
+}
+.banner-text{
+    width: 50%;
+}
+.banner-text h1{
+    color: orange;
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+}
+.banner-text span{
+    color: rgb(230, 3, 3);
+}
+.banner-button button{
+    background-color: chartreuse;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.banner-image img{
+    width: 100%;
+}
+.banner-text p{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}

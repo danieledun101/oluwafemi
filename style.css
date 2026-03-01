@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fraunces", serif;
+}
+nav{
+    background-color: #038373;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    
+    
+}
+.logo{
+   
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.logo img{
+
+    width: 40px;
+}
+.logo span{
+    /* padding: 20px; */
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+.nav a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.banner{
+    background: url(images/stacked-peaks-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fraunces", serif;
+    width: 100%;
+    max-width: 100%;
+    padding: 40px 20px ;
+    
+}
+.banner-text{
+    font-size: 2rem;
+    text-align: center;
+   flex: 1 1 400px;
+   max-width: 600px;
+   
+   
+
+}
+.banner-text p{
+    font-size: 20px;
+    padding: 20px;
+    font-style: italic;
+    
+}
+.banner-text h1 span{
+    color: rgba(255, 166, 0, 0.805);
+    text-align: center;
+  
+}
+.banner-image{
+    flex: 1 1 45%;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-image img{
+
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+}
+.banner-button{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.banner-button a{
+    margin-bottom: 20px;
+    background-color: #00CC8E;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+     font-family: "Fraunces", serif;
+}
+
+
+.about-wrapper{
+    
+    background-color: #eeefc1;
+    background: url(images/blob-scene-haikei.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-wrapper h1{
+    color: orange;
+    text-align: center;
+    padding: 30px;
+    
+}
+.about{
+    margin: 0 80px;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.about-image{
+   flex: 1 1 500px;
+   
+   
+}
+.about-image img{
+    width: 100%;
+    display: block;
+}
+.about-content{
+    
+    padding: 10px;
+    flex: 1 1 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+
+}
+.about-content h2{
+    font-size: 2rem;
+    padding-bottom: 20px;
+    color: orange;
+}
+.about-learn {
+    margin: 10px;
+}
+.about-learn button{
+    border: none;
+    background-color: #038373;
+    padding: 10px;
+    border-radius: 10px;
+}
+.programs-wrapper{
+    padding: 40px;
+}
+.programs{
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.primary{
+    flex: 1 1 300px;
+    padding: 40px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.primary img{
+    width: 100%;
+}
+.primary h2{
+    padding: 10px;
+    text-align: center;
+    color: #038373;
+}
+.primary button{
+    margin-top: 20px;
+    background-color: #00CC8E;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
