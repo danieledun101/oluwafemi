@@ -1,0 +1,15 @@
+Install git
+
+git –-version
+git config --global user.name "Your Full Name"
+git config --global user.email "youremail@example.com"
+git config --global init.defaultBranch main
+
+Install github cli ->  https://cli.github.com/
+Gh auth login
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/USERNAME/mysite.git
+git push -u origin main
+
+
